@@ -158,8 +158,8 @@ export default {
         width: 100%;
     }
 
-    .container .plan-content[data-v-bc5d8672] {
-        padding: 40px 5px;
+    .container .plan-content {
+        padding: 40px 10px;
     }
 }
 
