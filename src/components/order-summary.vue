@@ -150,7 +150,7 @@ export default {
 
 @media (max-width: 500px) {
     .content{
-        width: 90%;
+        width: 95%;
         margin-top: 15px;
     }
 
