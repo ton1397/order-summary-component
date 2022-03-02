@@ -23,7 +23,7 @@
                                     <p class="plan-title">Annual Plan</p>
                                     <p class="plan-price">$59.99/year</p>
                                 </div>
-                                <div class="plan-cancel">
+                                <div class="plan-change">
                                     <a href="#">Change</a>
                                 </div>
                             </div>
@@ -77,11 +77,12 @@ export default {
 .content .header-image img{
     border-radius: 20px 20px 0 0;
 }
-/*
-.content>div:not(.header-image){
-    padding: 10px 45px;
+
+.plan-change a[data-v-bc5d8672] {
+    color: #4748c5;
+    font-weight: 800;
+    font-size: 0.8em;
 }
-*/
 
 .description{
     color: #3d4a78;
@@ -141,11 +142,18 @@ export default {
     font-weight: 800;
     width: 90%;
     box-shadow: 0px 15px 15px 0px #c5e7ff;
+    cursor: pointer;
+}
+
+.container .btn-payment:hover{
+    background-color: #384FF9;
 }
 
 .container .plan-cancel-order{
     color: #656c78;
     font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {
