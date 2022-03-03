@@ -1,5 +1,8 @@
 # order-summary-component
 
+### Link para visualização
+https://ton1397.github.io/order-summary-component/
+
 ## Project setup
 ```
 npm install
